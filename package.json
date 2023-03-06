@@ -1,0 +1,27 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "NPM basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hi this your test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innakostich/test-node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innakostich/test-node.js/issues"
+  },
+  "homepage": "https://github.com/innakostich/test-node.js#readme",
+  "dependencies": {
+    "joi": "^17.8.3",
+    "uuid.v4": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
